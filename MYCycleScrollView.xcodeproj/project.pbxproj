@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC56D3711E4571D40004D7D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D3701E4571D40004D7D5 /* AppDelegate.swift */; };
+		DC56D3731E4571D40004D7D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D3721E4571D40004D7D5 /* ViewController.swift */; };
+		DC56D3761E4571D40004D7D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC56D3741E4571D40004D7D5 /* Main.storyboard */; };
+		DC56D3781E4571D40004D7D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC56D3771E4571D40004D7D5 /* Assets.xcassets */; };
+		DC56D37B1E4571D40004D7D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC56D3791E4571D40004D7D5 /* LaunchScreen.storyboard */; };
+		DC56D3841E45724A0004D7D5 /* MYCycleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D3831E45724A0004D7D5 /* MYCycleScrollView.swift */; };
+		DC56D3C51E45B2B00004D7D5 /* AnimatedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D3B01E45B2B00004D7D5 /* AnimatedImageView.swift */; };
+		DC56D3C61E45B2B00004D7D5 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D3B11E45B2B00004D7D5 /* Box.swift */; };
+		DC56D3C71E45B2B00004D7D5 /* CacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D3B21E45B2B00004D7D5 /* CacheSerializer.swift */; };
+		DC56D3C81E45B2B00004D7D5 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D3B31E45B2B00004D7D5 /* Filter.swift */; };
+		DC56D3C91E45B2B00004D7D5 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D3B41E45B2B00004D7D5 /* Image.swift */; };
+		DC56D3CA1E45B2B00004D7D5 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D3B51E45B2B00004D7D5 /* ImageCache.swift */; };
+		DC56D3CB1E45B2B00004D7D5 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D3B61E45B2B00004D7D5 /* ImageDownloader.swift */; };
+		DC56D3CC1E45B2B00004D7D5 /* ImagePrefetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D3B71E45B2B00004D7D5 /* ImagePrefetcher.swift */; };
+		DC56D3CD1E45B2B00004D7D5 /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D3B81E45B2B00004D7D5 /* ImageProcessor.swift */; };
+		DC56D3CE1E45B2B00004D7D5 /* ImageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D3B91E45B2B00004D7D5 /* ImageTransition.swift */; };
+		DC56D3CF1E45B2B00004D7D5 /* ImageView+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D3BA1E45B2B00004D7D5 /* ImageView+Kingfisher.swift */; };
+		DC56D3D01E45B2B00004D7D5 /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D3BB1E45B2B00004D7D5 /* Indicator.swift */; };
+		DC56D3D11E45B2B00004D7D5 /* Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D3BD1E45B2B00004D7D5 /* Kingfisher.swift */; };
+		DC56D3D21E45B2B00004D7D5 /* KingfisherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D3BE1E45B2B00004D7D5 /* KingfisherManager.swift */; };
+		DC56D3D31E45B2B00004D7D5 /* KingfisherOptionsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D3BF1E45B2B00004D7D5 /* KingfisherOptionsInfo.swift */; };
+		DC56D3D41E45B2B00004D7D5 /* RequrstModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D3C01E45B2B00004D7D5 /* RequrstModifier.swift */; };
+		DC56D3D51E45B2B00004D7D5 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D3C11E45B2B00004D7D5 /* Resource.swift */; };
+		DC56D3D61E45B2B00004D7D5 /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D3C21E45B2B00004D7D5 /* String+MD5.swift */; };
+		DC56D3D71E45B2B00004D7D5 /* ThreadHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D3C31E45B2B00004D7D5 /* ThreadHelper.swift */; };
+		DC56D3D81E45B2B00004D7D5 /* UIButton+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D3C41E45B2B00004D7D5 /* UIButton+Kingfisher.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC56D36D1E4571D40004D7D5 /* MYCycleScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MYCycleScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC56D3701E4571D40004D7D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC56D3721E4571D40004D7D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC56D3751E4571D40004D7D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC56D3771E4571D40004D7D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC56D37A1E4571D40004D7D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC56D37C1E4571D40004D7D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC56D3831E45724A0004D7D5 /* MYCycleScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MYCycleScrollView.swift; sourceTree = "<group>"; };
+		DC56D3B01E45B2B00004D7D5 /* AnimatedImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedImageView.swift; sourceTree = "<group>"; };
+		DC56D3B11E45B2B00004D7D5 /* Box.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
+		DC56D3B21E45B2B00004D7D5 /* CacheSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CacheSerializer.swift; sourceTree = "<group>"; };
+		DC56D3B31E45B2B00004D7D5 /* Filter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		DC56D3B41E45B2B00004D7D5 /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		DC56D3B51E45B2B00004D7D5 /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		DC56D3B61E45B2B00004D7D5 /* ImageDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		DC56D3B71E45B2B00004D7D5 /* ImagePrefetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePrefetcher.swift; sourceTree = "<group>"; };
+		DC56D3B81E45B2B00004D7D5 /* ImageProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageProcessor.swift; sourceTree = "<group>"; };
+		DC56D3B91E45B2B00004D7D5 /* ImageTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTransition.swift; sourceTree = "<group>"; };
+		DC56D3BA1E45B2B00004D7D5 /* ImageView+Kingfisher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ImageView+Kingfisher.swift"; sourceTree = "<group>"; };
+		DC56D3BB1E45B2B00004D7D5 /* Indicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Indicator.swift; sourceTree = "<group>"; };
+		DC56D3BC1E45B2B00004D7D5 /* Kingfisher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kingfisher.h; sourceTree = "<group>"; };
+		DC56D3BD1E45B2B00004D7D5 /* Kingfisher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kingfisher.swift; sourceTree = "<group>"; };
+		DC56D3BE1E45B2B00004D7D5 /* KingfisherManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KingfisherManager.swift; sourceTree = "<group>"; };
+		DC56D3BF1E45B2B00004D7D5 /* KingfisherOptionsInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KingfisherOptionsInfo.swift; sourceTree = "<group>"; };
+		DC56D3C01E45B2B00004D7D5 /* RequrstModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequrstModifier.swift; sourceTree = "<group>"; };
+		DC56D3C11E45B2B00004D7D5 /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		DC56D3C21E45B2B00004D7D5 /* String+MD5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+MD5.swift"; sourceTree = "<group>"; };
+		DC56D3C31E45B2B00004D7D5 /* ThreadHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreadHelper.swift; sourceTree = "<group>"; };
+		DC56D3C41E45B2B00004D7D5 /* UIButton+Kingfisher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Kingfisher.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC56D36A1E4571D40004D7D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC56D3641E4571D40004D7D5 = {
+			isa = PBXGroup;
+			children = (
+				DC56D36F1E4571D40004D7D5 /* MYCycleScrollView */,
+				DC56D36E1E4571D40004D7D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC56D36E1E4571D40004D7D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC56D36D1E4571D40004D7D5 /* MYCycleScrollView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC56D36F1E4571D40004D7D5 /* MYCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				DC56D3AF1E45B2B00004D7D5 /* Kingfisher */,
+				DC56D3821E45721D0004D7D5 /* MYCycleScrollView */,
+				DC56D3701E4571D40004D7D5 /* AppDelegate.swift */,
+				DC56D3721E4571D40004D7D5 /* ViewController.swift */,
+				DC56D3741E4571D40004D7D5 /* Main.storyboard */,
+				DC56D3771E4571D40004D7D5 /* Assets.xcassets */,
+				DC56D3791E4571D40004D7D5 /* LaunchScreen.storyboard */,
+				DC56D37C1E4571D40004D7D5 /* Info.plist */,
+			);
+			path = MYCycleScrollView;
+			sourceTree = "<group>";
+		};
+		DC56D3821E45721D0004D7D5 /* MYCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				DC56D3831E45724A0004D7D5 /* MYCycleScrollView.swift */,
+			);
+			path = MYCycleScrollView;
+			sourceTree = "<group>";
+		};
+		DC56D3AF1E45B2B00004D7D5 /* Kingfisher */ = {
+			isa = PBXGroup;
+			children = (
+				DC56D3B01E45B2B00004D7D5 /* AnimatedImageView.swift */,
+				DC56D3B11E45B2B00004D7D5 /* Box.swift */,
+				DC56D3B21E45B2B00004D7D5 /* CacheSerializer.swift */,
+				DC56D3B31E45B2B00004D7D5 /* Filter.swift */,
+				DC56D3B41E45B2B00004D7D5 /* Image.swift */,
+				DC56D3B51E45B2B00004D7D5 /* ImageCache.swift */,
+				DC56D3B61E45B2B00004D7D5 /* ImageDownloader.swift */,
+				DC56D3B71E45B2B00004D7D5 /* ImagePrefetcher.swift */,
+				DC56D3B81E45B2B00004D7D5 /* ImageProcessor.swift */,
+				DC56D3B91E45B2B00004D7D5 /* ImageTransition.swift */,
+				DC56D3BA1E45B2B00004D7D5 /* ImageView+Kingfisher.swift */,
+				DC56D3BB1E45B2B00004D7D5 /* Indicator.swift */,
+				DC56D3BC1E45B2B00004D7D5 /* Kingfisher.h */,
+				DC56D3BD1E45B2B00004D7D5 /* Kingfisher.swift */,
+				DC56D3BE1E45B2B00004D7D5 /* KingfisherManager.swift */,
+				DC56D3BF1E45B2B00004D7D5 /* KingfisherOptionsInfo.swift */,
+				DC56D3C01E45B2B00004D7D5 /* RequrstModifier.swift */,
+				DC56D3C11E45B2B00004D7D5 /* Resource.swift */,
+				DC56D3C21E45B2B00004D7D5 /* String+MD5.swift */,
+				DC56D3C31E45B2B00004D7D5 /* ThreadHelper.swift */,
+				DC56D3C41E45B2B00004D7D5 /* UIButton+Kingfisher.swift */,
+			);
+			path = Kingfisher;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC56D36C1E4571D40004D7D5 /* MYCycleScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC56D37F1E4571D40004D7D5 /* Build configuration list for PBXNativeTarget "MYCycleScrollView" */;
+			buildPhases = (
+				DC56D3691E4571D40004D7D5 /* Sources */,
+				DC56D36A1E4571D40004D7D5 /* Frameworks */,
+				DC56D36B1E4571D40004D7D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MYCycleScrollView;
+			productName = MYCycleScrollView;
+			productReference = DC56D36D1E4571D40004D7D5 /* MYCycleScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC56D3651E4571D40004D7D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "梦阳 许";
+				TargetAttributes = {
+					DC56D36C1E4571D40004D7D5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YJFSKMWAML;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DC56D3681E4571D40004D7D5 /* Build configuration list for PBXProject "MYCycleScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC56D3641E4571D40004D7D5;
+			productRefGroup = DC56D36E1E4571D40004D7D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC56D36C1E4571D40004D7D5 /* MYCycleScrollView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC56D36B1E4571D40004D7D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC56D37B1E4571D40004D7D5 /* LaunchScreen.storyboard in Resources */,
+				DC56D3781E4571D40004D7D5 /* Assets.xcassets in Resources */,
+				DC56D3761E4571D40004D7D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC56D3691E4571D40004D7D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC56D3C81E45B2B00004D7D5 /* Filter.swift in Sources */,
+				DC56D3C91E45B2B00004D7D5 /* Image.swift in Sources */,
+				DC56D3841E45724A0004D7D5 /* MYCycleScrollView.swift in Sources */,
+				DC56D3CA1E45B2B00004D7D5 /* ImageCache.swift in Sources */,
+				DC56D3CF1E45B2B00004D7D5 /* ImageView+Kingfisher.swift in Sources */,
+				DC56D3D41E45B2B00004D7D5 /* RequrstModifier.swift in Sources */,
+				DC56D3D11E45B2B00004D7D5 /* Kingfisher.swift in Sources */,
+				DC56D3D31E45B2B00004D7D5 /* KingfisherOptionsInfo.swift in Sources */,
+				DC56D3731E4571D40004D7D5 /* ViewController.swift in Sources */,
+				DC56D3D81E45B2B00004D7D5 /* UIButton+Kingfisher.swift in Sources */,
+				DC56D3D61E45B2B00004D7D5 /* String+MD5.swift in Sources */,
+				DC56D3711E4571D40004D7D5 /* AppDelegate.swift in Sources */,
+				DC56D3D71E45B2B00004D7D5 /* ThreadHelper.swift in Sources */,
+				DC56D3CB1E45B2B00004D7D5 /* ImageDownloader.swift in Sources */,
+				DC56D3C51E45B2B00004D7D5 /* AnimatedImageView.swift in Sources */,
+				DC56D3CC1E45B2B00004D7D5 /* ImagePrefetcher.swift in Sources */,
+				DC56D3D51E45B2B00004D7D5 /* Resource.swift in Sources */,
+				DC56D3C71E45B2B00004D7D5 /* CacheSerializer.swift in Sources */,
+				DC56D3CE1E45B2B00004D7D5 /* ImageTransition.swift in Sources */,
+				DC56D3D21E45B2B00004D7D5 /* KingfisherManager.swift in Sources */,
+				DC56D3CD1E45B2B00004D7D5 /* ImageProcessor.swift in Sources */,
+				DC56D3D01E45B2B00004D7D5 /* Indicator.swift in Sources */,
+				DC56D3C61E45B2B00004D7D5 /* Box.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC56D3741E4571D40004D7D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC56D3751E4571D40004D7D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC56D3791E4571D40004D7D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC56D37A1E4571D40004D7D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC56D37D1E4571D40004D7D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC56D37E1E4571D40004D7D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC56D3801E4571D40004D7D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YJFSKMWAML;
+				INFOPLIST_FILE = MYCycleScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "x-my.MYCycleScrollView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DC56D3811E4571D40004D7D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YJFSKMWAML;
+				INFOPLIST_FILE = MYCycleScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "x-my.MYCycleScrollView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC56D3681E4571D40004D7D5 /* Build configuration list for PBXProject "MYCycleScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC56D37D1E4571D40004D7D5 /* Debug */,
+				DC56D37E1E4571D40004D7D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC56D37F1E4571D40004D7D5 /* Build configuration list for PBXNativeTarget "MYCycleScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC56D3801E4571D40004D7D5 /* Debug */,
+				DC56D3811E4571D40004D7D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC56D3651E4571D40004D7D5 /* Project object */;
+}

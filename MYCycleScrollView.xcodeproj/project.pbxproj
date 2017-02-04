@@ -12,7 +12,6 @@
 		DC56D3761E4571D40004D7D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC56D3741E4571D40004D7D5 /* Main.storyboard */; };
 		DC56D3781E4571D40004D7D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC56D3771E4571D40004D7D5 /* Assets.xcassets */; };
 		DC56D37B1E4571D40004D7D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC56D3791E4571D40004D7D5 /* LaunchScreen.storyboard */; };
-		DC56D3841E45724A0004D7D5 /* MYCycleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D3831E45724A0004D7D5 /* MYCycleScrollView.swift */; };
 		DC56D3C51E45B2B00004D7D5 /* AnimatedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D3B01E45B2B00004D7D5 /* AnimatedImageView.swift */; };
 		DC56D3C61E45B2B00004D7D5 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D3B11E45B2B00004D7D5 /* Box.swift */; };
 		DC56D3C71E45B2B00004D7D5 /* CacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D3B21E45B2B00004D7D5 /* CacheSerializer.swift */; };
@@ -33,6 +32,7 @@
 		DC56D3D61E45B2B00004D7D5 /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D3C21E45B2B00004D7D5 /* String+MD5.swift */; };
 		DC56D3D71E45B2B00004D7D5 /* ThreadHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D3C31E45B2B00004D7D5 /* ThreadHelper.swift */; };
 		DC56D3D81E45B2B00004D7D5 /* UIButton+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D3C41E45B2B00004D7D5 /* UIButton+Kingfisher.swift */; };
+		DC56D3DB1E45B6AF0004D7D5 /* MYCycleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D3DA1E45B6AF0004D7D5 /* MYCycleScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,7 +43,6 @@
 		DC56D3771E4571D40004D7D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC56D37A1E4571D40004D7D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC56D37C1E4571D40004D7D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DC56D3831E45724A0004D7D5 /* MYCycleScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MYCycleScrollView.swift; sourceTree = "<group>"; };
 		DC56D3B01E45B2B00004D7D5 /* AnimatedImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedImageView.swift; sourceTree = "<group>"; };
 		DC56D3B11E45B2B00004D7D5 /* Box.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
 		DC56D3B21E45B2B00004D7D5 /* CacheSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CacheSerializer.swift; sourceTree = "<group>"; };
@@ -65,6 +64,7 @@
 		DC56D3C21E45B2B00004D7D5 /* String+MD5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+MD5.swift"; sourceTree = "<group>"; };
 		DC56D3C31E45B2B00004D7D5 /* ThreadHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreadHelper.swift; sourceTree = "<group>"; };
 		DC56D3C41E45B2B00004D7D5 /* UIButton+Kingfisher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Kingfisher.swift"; sourceTree = "<group>"; };
+		DC56D3DA1E45B6AF0004D7D5 /* MYCycleScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MYCycleScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,22 +97,14 @@
 		DC56D36F1E4571D40004D7D5 /* MYCycleScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				DC56D3D91E45B6AF0004D7D5 /* Sources */,
 				DC56D3AF1E45B2B00004D7D5 /* Kingfisher */,
-				DC56D3821E45721D0004D7D5 /* MYCycleScrollView */,
 				DC56D3701E4571D40004D7D5 /* AppDelegate.swift */,
 				DC56D3721E4571D40004D7D5 /* ViewController.swift */,
 				DC56D3741E4571D40004D7D5 /* Main.storyboard */,
 				DC56D3771E4571D40004D7D5 /* Assets.xcassets */,
 				DC56D3791E4571D40004D7D5 /* LaunchScreen.storyboard */,
 				DC56D37C1E4571D40004D7D5 /* Info.plist */,
-			);
-			path = MYCycleScrollView;
-			sourceTree = "<group>";
-		};
-		DC56D3821E45721D0004D7D5 /* MYCycleScrollView */ = {
-			isa = PBXGroup;
-			children = (
-				DC56D3831E45724A0004D7D5 /* MYCycleScrollView.swift */,
 			);
 			path = MYCycleScrollView;
 			sourceTree = "<group>";
@@ -143,6 +135,14 @@
 				DC56D3C41E45B2B00004D7D5 /* UIButton+Kingfisher.swift */,
 			);
 			path = Kingfisher;
+			sourceTree = "<group>";
+		};
+		DC56D3D91E45B6AF0004D7D5 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				DC56D3DA1E45B6AF0004D7D5 /* MYCycleScrollView.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,7 +220,6 @@
 			files = (
 				DC56D3C81E45B2B00004D7D5 /* Filter.swift in Sources */,
 				DC56D3C91E45B2B00004D7D5 /* Image.swift in Sources */,
-				DC56D3841E45724A0004D7D5 /* MYCycleScrollView.swift in Sources */,
 				DC56D3CA1E45B2B00004D7D5 /* ImageCache.swift in Sources */,
 				DC56D3CF1E45B2B00004D7D5 /* ImageView+Kingfisher.swift in Sources */,
 				DC56D3D41E45B2B00004D7D5 /* RequrstModifier.swift in Sources */,
@@ -239,6 +238,7 @@
 				DC56D3CE1E45B2B00004D7D5 /* ImageTransition.swift in Sources */,
 				DC56D3D21E45B2B00004D7D5 /* KingfisherManager.swift in Sources */,
 				DC56D3CD1E45B2B00004D7D5 /* ImageProcessor.swift in Sources */,
+				DC56D3DB1E45B6AF0004D7D5 /* MYCycleScrollView.swift in Sources */,
 				DC56D3D01E45B2B00004D7D5 /* Indicator.swift in Sources */,
 				DC56D3C61E45B2B00004D7D5 /* Box.swift in Sources */,
 			);
@@ -404,6 +404,7 @@
 				DC56D3811E4571D40004D7D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

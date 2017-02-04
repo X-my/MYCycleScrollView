@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MYCycleScrollView"
-  s.version      = "0.1"
+  s.version      = “1.0”
   s.summary      = "Swift版无限滚动轮播图控件，使用Kingfisher加载网络图片"
 
   s.homepage     = "https://github.com/X-my/MYCycleScrollView"

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Kingfisher
 
 private let kCellReuseIdentifier = "MYCollectionViewCell"
 

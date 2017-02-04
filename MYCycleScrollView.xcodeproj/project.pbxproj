@@ -7,35 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04515C9FA1902F41AB68208D /* Pods_MYCycleScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC9B38993B4C4E8A36C2590E /* Pods_MYCycleScrollView.framework */; };
 		DC56D3711E4571D40004D7D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D3701E4571D40004D7D5 /* AppDelegate.swift */; };
 		DC56D3731E4571D40004D7D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D3721E4571D40004D7D5 /* ViewController.swift */; };
 		DC56D3761E4571D40004D7D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC56D3741E4571D40004D7D5 /* Main.storyboard */; };
 		DC56D3781E4571D40004D7D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC56D3771E4571D40004D7D5 /* Assets.xcassets */; };
 		DC56D37B1E4571D40004D7D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC56D3791E4571D40004D7D5 /* LaunchScreen.storyboard */; };
-		DC56D3C51E45B2B00004D7D5 /* AnimatedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D3B01E45B2B00004D7D5 /* AnimatedImageView.swift */; };
-		DC56D3C61E45B2B00004D7D5 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D3B11E45B2B00004D7D5 /* Box.swift */; };
-		DC56D3C71E45B2B00004D7D5 /* CacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D3B21E45B2B00004D7D5 /* CacheSerializer.swift */; };
-		DC56D3C81E45B2B00004D7D5 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D3B31E45B2B00004D7D5 /* Filter.swift */; };
-		DC56D3C91E45B2B00004D7D5 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D3B41E45B2B00004D7D5 /* Image.swift */; };
-		DC56D3CA1E45B2B00004D7D5 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D3B51E45B2B00004D7D5 /* ImageCache.swift */; };
-		DC56D3CB1E45B2B00004D7D5 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D3B61E45B2B00004D7D5 /* ImageDownloader.swift */; };
-		DC56D3CC1E45B2B00004D7D5 /* ImagePrefetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D3B71E45B2B00004D7D5 /* ImagePrefetcher.swift */; };
-		DC56D3CD1E45B2B00004D7D5 /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D3B81E45B2B00004D7D5 /* ImageProcessor.swift */; };
-		DC56D3CE1E45B2B00004D7D5 /* ImageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D3B91E45B2B00004D7D5 /* ImageTransition.swift */; };
-		DC56D3CF1E45B2B00004D7D5 /* ImageView+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D3BA1E45B2B00004D7D5 /* ImageView+Kingfisher.swift */; };
-		DC56D3D01E45B2B00004D7D5 /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D3BB1E45B2B00004D7D5 /* Indicator.swift */; };
-		DC56D3D11E45B2B00004D7D5 /* Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D3BD1E45B2B00004D7D5 /* Kingfisher.swift */; };
-		DC56D3D21E45B2B00004D7D5 /* KingfisherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D3BE1E45B2B00004D7D5 /* KingfisherManager.swift */; };
-		DC56D3D31E45B2B00004D7D5 /* KingfisherOptionsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D3BF1E45B2B00004D7D5 /* KingfisherOptionsInfo.swift */; };
-		DC56D3D41E45B2B00004D7D5 /* RequrstModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D3C01E45B2B00004D7D5 /* RequrstModifier.swift */; };
-		DC56D3D51E45B2B00004D7D5 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D3C11E45B2B00004D7D5 /* Resource.swift */; };
-		DC56D3D61E45B2B00004D7D5 /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D3C21E45B2B00004D7D5 /* String+MD5.swift */; };
-		DC56D3D71E45B2B00004D7D5 /* ThreadHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D3C31E45B2B00004D7D5 /* ThreadHelper.swift */; };
-		DC56D3D81E45B2B00004D7D5 /* UIButton+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D3C41E45B2B00004D7D5 /* UIButton+Kingfisher.swift */; };
-		DC56D3DB1E45B6AF0004D7D5 /* MYCycleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D3DA1E45B6AF0004D7D5 /* MYCycleScrollView.swift */; };
+		DC56D3DE1E45BCF60004D7D5 /* MYCycleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D3DD1E45BCF60004D7D5 /* MYCycleScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C2CBAB569C8DD7A6A00BBD9 /* Pods-MYCycleScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYCycleScrollView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MYCycleScrollView/Pods-MYCycleScrollView.debug.xcconfig"; sourceTree = "<group>"; };
+		BB1B1F3A27A0372595DE4DCD /* Pods-MYCycleScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYCycleScrollView.release.xcconfig"; path = "Pods/Target Support Files/Pods-MYCycleScrollView/Pods-MYCycleScrollView.release.xcconfig"; sourceTree = "<group>"; };
 		DC56D36D1E4571D40004D7D5 /* MYCycleScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MYCycleScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC56D3701E4571D40004D7D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC56D3721E4571D40004D7D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,28 +26,8 @@
 		DC56D3771E4571D40004D7D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC56D37A1E4571D40004D7D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC56D37C1E4571D40004D7D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DC56D3B01E45B2B00004D7D5 /* AnimatedImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedImageView.swift; sourceTree = "<group>"; };
-		DC56D3B11E45B2B00004D7D5 /* Box.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
-		DC56D3B21E45B2B00004D7D5 /* CacheSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CacheSerializer.swift; sourceTree = "<group>"; };
-		DC56D3B31E45B2B00004D7D5 /* Filter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
-		DC56D3B41E45B2B00004D7D5 /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
-		DC56D3B51E45B2B00004D7D5 /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
-		DC56D3B61E45B2B00004D7D5 /* ImageDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
-		DC56D3B71E45B2B00004D7D5 /* ImagePrefetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePrefetcher.swift; sourceTree = "<group>"; };
-		DC56D3B81E45B2B00004D7D5 /* ImageProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageProcessor.swift; sourceTree = "<group>"; };
-		DC56D3B91E45B2B00004D7D5 /* ImageTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTransition.swift; sourceTree = "<group>"; };
-		DC56D3BA1E45B2B00004D7D5 /* ImageView+Kingfisher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ImageView+Kingfisher.swift"; sourceTree = "<group>"; };
-		DC56D3BB1E45B2B00004D7D5 /* Indicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Indicator.swift; sourceTree = "<group>"; };
-		DC56D3BC1E45B2B00004D7D5 /* Kingfisher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kingfisher.h; sourceTree = "<group>"; };
-		DC56D3BD1E45B2B00004D7D5 /* Kingfisher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kingfisher.swift; sourceTree = "<group>"; };
-		DC56D3BE1E45B2B00004D7D5 /* KingfisherManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KingfisherManager.swift; sourceTree = "<group>"; };
-		DC56D3BF1E45B2B00004D7D5 /* KingfisherOptionsInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KingfisherOptionsInfo.swift; sourceTree = "<group>"; };
-		DC56D3C01E45B2B00004D7D5 /* RequrstModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequrstModifier.swift; sourceTree = "<group>"; };
-		DC56D3C11E45B2B00004D7D5 /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
-		DC56D3C21E45B2B00004D7D5 /* String+MD5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+MD5.swift"; sourceTree = "<group>"; };
-		DC56D3C31E45B2B00004D7D5 /* ThreadHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreadHelper.swift; sourceTree = "<group>"; };
-		DC56D3C41E45B2B00004D7D5 /* UIButton+Kingfisher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Kingfisher.swift"; sourceTree = "<group>"; };
-		DC56D3DA1E45B6AF0004D7D5 /* MYCycleScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MYCycleScrollView.swift; sourceTree = "<group>"; };
+		DC56D3DD1E45BCF60004D7D5 /* MYCycleScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MYCycleScrollView.swift; sourceTree = "<group>"; };
+		DC9B38993B4C4E8A36C2590E /* Pods_MYCycleScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MYCycleScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04515C9FA1902F41AB68208D /* Pods_MYCycleScrollView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C0784FBEEF946DD7BECDDA02 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C2CBAB569C8DD7A6A00BBD9 /* Pods-MYCycleScrollView.debug.xcconfig */,
+				BB1B1F3A27A0372595DE4DCD /* Pods-MYCycleScrollView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D32AE695F39396CC8590EB1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC9B38993B4C4E8A36C2590E /* Pods_MYCycleScrollView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DC56D3641E4571D40004D7D5 = {
 			isa = PBXGroup;
 			children = (
 				DC56D36F1E4571D40004D7D5 /* MYCycleScrollView */,
 				DC56D36E1E4571D40004D7D5 /* Products */,
+				C0784FBEEF946DD7BECDDA02 /* Pods */,
+				D32AE695F39396CC8590EB1D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +80,7 @@
 		DC56D36F1E4571D40004D7D5 /* MYCycleScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				DC56D3D91E45B6AF0004D7D5 /* Sources */,
-				DC56D3AF1E45B2B00004D7D5 /* Kingfisher */,
+				DC56D3DC1E45BCF60004D7D5 /* Sources */,
 				DC56D3701E4571D40004D7D5 /* AppDelegate.swift */,
 				DC56D3721E4571D40004D7D5 /* ViewController.swift */,
 				DC56D3741E4571D40004D7D5 /* Main.storyboard */,
@@ -109,38 +91,10 @@
 			path = MYCycleScrollView;
 			sourceTree = "<group>";
 		};
-		DC56D3AF1E45B2B00004D7D5 /* Kingfisher */ = {
+		DC56D3DC1E45BCF60004D7D5 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				DC56D3B01E45B2B00004D7D5 /* AnimatedImageView.swift */,
-				DC56D3B11E45B2B00004D7D5 /* Box.swift */,
-				DC56D3B21E45B2B00004D7D5 /* CacheSerializer.swift */,
-				DC56D3B31E45B2B00004D7D5 /* Filter.swift */,
-				DC56D3B41E45B2B00004D7D5 /* Image.swift */,
-				DC56D3B51E45B2B00004D7D5 /* ImageCache.swift */,
-				DC56D3B61E45B2B00004D7D5 /* ImageDownloader.swift */,
-				DC56D3B71E45B2B00004D7D5 /* ImagePrefetcher.swift */,
-				DC56D3B81E45B2B00004D7D5 /* ImageProcessor.swift */,
-				DC56D3B91E45B2B00004D7D5 /* ImageTransition.swift */,
-				DC56D3BA1E45B2B00004D7D5 /* ImageView+Kingfisher.swift */,
-				DC56D3BB1E45B2B00004D7D5 /* Indicator.swift */,
-				DC56D3BC1E45B2B00004D7D5 /* Kingfisher.h */,
-				DC56D3BD1E45B2B00004D7D5 /* Kingfisher.swift */,
-				DC56D3BE1E45B2B00004D7D5 /* KingfisherManager.swift */,
-				DC56D3BF1E45B2B00004D7D5 /* KingfisherOptionsInfo.swift */,
-				DC56D3C01E45B2B00004D7D5 /* RequrstModifier.swift */,
-				DC56D3C11E45B2B00004D7D5 /* Resource.swift */,
-				DC56D3C21E45B2B00004D7D5 /* String+MD5.swift */,
-				DC56D3C31E45B2B00004D7D5 /* ThreadHelper.swift */,
-				DC56D3C41E45B2B00004D7D5 /* UIButton+Kingfisher.swift */,
-			);
-			path = Kingfisher;
-			sourceTree = "<group>";
-		};
-		DC56D3D91E45B6AF0004D7D5 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				DC56D3DA1E45B6AF0004D7D5 /* MYCycleScrollView.swift */,
+				DC56D3DD1E45BCF60004D7D5 /* MYCycleScrollView.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -152,9 +106,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC56D37F1E4571D40004D7D5 /* Build configuration list for PBXNativeTarget "MYCycleScrollView" */;
 			buildPhases = (
+				D5F07193493AA692F36D156F /* [CP] Check Pods Manifest.lock */,
 				DC56D3691E4571D40004D7D5 /* Sources */,
 				DC56D36A1E4571D40004D7D5 /* Frameworks */,
 				DC56D36B1E4571D40004D7D5 /* Resources */,
+				26C8CAC9B3755A23F78E7585 /* [CP] Embed Pods Frameworks */,
+				C58D3656352A596EBEEDAE5C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -213,34 +170,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		26C8CAC9B3755A23F78E7585 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MYCycleScrollView/Pods-MYCycleScrollView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C58D3656352A596EBEEDAE5C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MYCycleScrollView/Pods-MYCycleScrollView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5F07193493AA692F36D156F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DC56D3691E4571D40004D7D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC56D3C81E45B2B00004D7D5 /* Filter.swift in Sources */,
-				DC56D3C91E45B2B00004D7D5 /* Image.swift in Sources */,
-				DC56D3CA1E45B2B00004D7D5 /* ImageCache.swift in Sources */,
-				DC56D3CF1E45B2B00004D7D5 /* ImageView+Kingfisher.swift in Sources */,
-				DC56D3D41E45B2B00004D7D5 /* RequrstModifier.swift in Sources */,
-				DC56D3D11E45B2B00004D7D5 /* Kingfisher.swift in Sources */,
-				DC56D3D31E45B2B00004D7D5 /* KingfisherOptionsInfo.swift in Sources */,
+				DC56D3DE1E45BCF60004D7D5 /* MYCycleScrollView.swift in Sources */,
 				DC56D3731E4571D40004D7D5 /* ViewController.swift in Sources */,
-				DC56D3D81E45B2B00004D7D5 /* UIButton+Kingfisher.swift in Sources */,
-				DC56D3D61E45B2B00004D7D5 /* String+MD5.swift in Sources */,
 				DC56D3711E4571D40004D7D5 /* AppDelegate.swift in Sources */,
-				DC56D3D71E45B2B00004D7D5 /* ThreadHelper.swift in Sources */,
-				DC56D3CB1E45B2B00004D7D5 /* ImageDownloader.swift in Sources */,
-				DC56D3C51E45B2B00004D7D5 /* AnimatedImageView.swift in Sources */,
-				DC56D3CC1E45B2B00004D7D5 /* ImagePrefetcher.swift in Sources */,
-				DC56D3D51E45B2B00004D7D5 /* Resource.swift in Sources */,
-				DC56D3C71E45B2B00004D7D5 /* CacheSerializer.swift in Sources */,
-				DC56D3CE1E45B2B00004D7D5 /* ImageTransition.swift in Sources */,
-				DC56D3D21E45B2B00004D7D5 /* KingfisherManager.swift in Sources */,
-				DC56D3CD1E45B2B00004D7D5 /* ImageProcessor.swift in Sources */,
-				DC56D3DB1E45B6AF0004D7D5 /* MYCycleScrollView.swift in Sources */,
-				DC56D3D01E45B2B00004D7D5 /* Indicator.swift in Sources */,
-				DC56D3C61E45B2B00004D7D5 /* Box.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +344,7 @@
 		};
 		DC56D3801E4571D40004D7D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C2CBAB569C8DD7A6A00BBD9 /* Pods-MYCycleScrollView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = YJFSKMWAML;
@@ -373,6 +359,7 @@
 		};
 		DC56D3811E4571D40004D7D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB1B1F3A27A0372595DE4DCD /* Pods-MYCycleScrollView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = YJFSKMWAML;

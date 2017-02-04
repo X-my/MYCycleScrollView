@@ -13,7 +13,7 @@
 		DC56D3761E4571D40004D7D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC56D3741E4571D40004D7D5 /* Main.storyboard */; };
 		DC56D3781E4571D40004D7D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC56D3771E4571D40004D7D5 /* Assets.xcassets */; };
 		DC56D37B1E4571D40004D7D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC56D3791E4571D40004D7D5 /* LaunchScreen.storyboard */; };
-		DC56D3DE1E45BCF60004D7D5 /* MYCycleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D3DD1E45BCF60004D7D5 /* MYCycleScrollView.swift */; };
+		DC56D3E51E45BF2C0004D7D5 /* MYCycleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D3E41E45BF2C0004D7D5 /* MYCycleScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +26,7 @@
 		DC56D3771E4571D40004D7D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC56D37A1E4571D40004D7D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC56D37C1E4571D40004D7D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DC56D3DD1E45BCF60004D7D5 /* MYCycleScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MYCycleScrollView.swift; sourceTree = "<group>"; };
+		DC56D3E41E45BF2C0004D7D5 /* MYCycleScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MYCycleScrollView.swift; sourceTree = "<group>"; };
 		DC9B38993B4C4E8A36C2590E /* Pods_MYCycleScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MYCycleScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -62,6 +62,7 @@
 		DC56D3641E4571D40004D7D5 = {
 			isa = PBXGroup;
 			children = (
+				DC56D3E31E45BF2C0004D7D5 /* Sources */,
 				DC56D36F1E4571D40004D7D5 /* MYCycleScrollView */,
 				DC56D36E1E4571D40004D7D5 /* Products */,
 				C0784FBEEF946DD7BECDDA02 /* Pods */,
@@ -80,7 +81,6 @@
 		DC56D36F1E4571D40004D7D5 /* MYCycleScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				DC56D3DC1E45BCF60004D7D5 /* Sources */,
 				DC56D3701E4571D40004D7D5 /* AppDelegate.swift */,
 				DC56D3721E4571D40004D7D5 /* ViewController.swift */,
 				DC56D3741E4571D40004D7D5 /* Main.storyboard */,
@@ -91,10 +91,10 @@
 			path = MYCycleScrollView;
 			sourceTree = "<group>";
 		};
-		DC56D3DC1E45BCF60004D7D5 /* Sources */ = {
+		DC56D3E31E45BF2C0004D7D5 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				DC56D3DD1E45BCF60004D7D5 /* MYCycleScrollView.swift */,
+				DC56D3E41E45BF2C0004D7D5 /* MYCycleScrollView.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -223,7 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC56D3DE1E45BCF60004D7D5 /* MYCycleScrollView.swift in Sources */,
+				DC56D3E51E45BF2C0004D7D5 /* MYCycleScrollView.swift in Sources */,
 				DC56D3731E4571D40004D7D5 /* ViewController.swift in Sources */,
 				DC56D3711E4571D40004D7D5 /* AppDelegate.swift in Sources */,
 			);

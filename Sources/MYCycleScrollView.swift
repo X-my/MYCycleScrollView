@@ -84,7 +84,7 @@ open class MYCycleScrollView: UIView {
     private weak var timer: Timer?
     
     // MARK: - 初始化方法
-    override init(frame: CGRect) {
+    override public init(frame: CGRect) {
         super.init(frame: frame)
         setupSubview()
     }

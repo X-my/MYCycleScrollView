@@ -22,7 +22,7 @@ public enum PageContolAliment {
     func cycleScrollView(_ cycleScrollView: MYCycleScrollView, didScrollTo index: Int)
 }
 
-public class MYCycleScrollView: UIView, UICollectionViewDataSource,UICollectionViewDelegate {
+open class MYCycleScrollView: UIView {
 
     // MARK: - Public Properties
     public var imageURLs = [String]() {
@@ -81,7 +81,7 @@ public class MYCycleScrollView: UIView, UICollectionViewDataSource,UICollectionV
         }
         return max(0, index)
     }
-    weak var timer: Timer?
+    private weak var timer: Timer?
     
     // MARK: - 初始化方法
     override init(frame: CGRect) {
@@ -93,7 +93,7 @@ public class MYCycleScrollView: UIView, UICollectionViewDataSource,UICollectionV
         super.init(coder: aDecoder)
         setupSubview()
     }
-    public override func willMove(toSuperview newSuperview: UIView?) {
+    override open func willMove(toSuperview newSuperview: UIView?) {
         if newSuperview == nil {
             self.invalidateTimer()
         }
@@ -102,7 +102,7 @@ public class MYCycleScrollView: UIView, UICollectionViewDataSource,UICollectionV
         collectionView.delegate = nil
         collectionView.dataSource = nil
     }
-    public override func layoutSubviews() {
+    override open func layoutSubviews() {
         super.layoutSubviews()
         
         flowLayout.itemSize = self.frame.size
@@ -180,11 +180,11 @@ public class MYCycleScrollView: UIView, UICollectionViewDataSource,UICollectionV
     }()
 }
 // MARK: - UICollectionViewDataSource & UICollectionViewDelegate
-public extension MYCycleScrollView{
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int{
+extension MYCycleScrollView: UICollectionViewDataSource, UICollectionViewDelegate{
+    public func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int{
         return self.totalItemsCount
     }
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+    public func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: kCellReuseIdentifier, for: indexPath) as! MYCollectionViewCell
         let index = indexPath.item % self.imageURLs.count
         cell.imageView.kf.setImage(with: URL(string: self.imageURLs[index]), placeholder:self.placehoder, options: [.transition(self.imageTransition)])

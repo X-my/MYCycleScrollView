@@ -17,13 +17,12 @@ public enum PageContolAliment {
 }
 
 @objc public protocol MYCycleScrollViewDelegate: NSObjectProtocol {
-    @objc optional
-    func cycleScrollView(_ cycleScrollView: MYCycleScrollView, didSelectItemAt index: Int)
-    func cycleScrollView(_ cycleScrollView: MYCycleScrollView, didScrollTo index: Int)
+    @objc optional func cycleScrollView(_ cycleScrollView: MYCycleScrollView, didSelectItemAt index: Int)
+    @objc optional func cycleScrollView(_ cycleScrollView: MYCycleScrollView, didScrollTo index: Int)
 }
 
 open class MYCycleScrollView: UIView {
-
+    
     // MARK: - Public Properties
     public var imageURLs = [String]() {
         didSet {
@@ -45,7 +44,7 @@ open class MYCycleScrollView: UIView {
             collectionView.reloadData()
             
         }
-    
+        
     }
     public var isAutoScroll = true {
         didSet {
@@ -105,8 +104,7 @@ open class MYCycleScrollView: UIView {
     override open func layoutSubviews() {
         super.layoutSubviews()
         
-        flowLayout.itemSize = self.frame.size
-        collectionView.frame = self.bounds
+        flowLayout.itemSize = collectionView.bounds.size
         if collectionView.contentOffset.x == 0 && totalItemsCount > 0 {
             var targetIndex = 0
             if self.isInfiniteLoop {
@@ -166,7 +164,7 @@ open class MYCycleScrollView: UIView {
         return flowLayout
     }()
     
-    lazy var collectionView: UICollectionView = {
+    public private(set) lazy var collectionView: UICollectionView = {
         let collectionView = UICollectionView(frame: self.bounds, collectionViewLayout: self.flowLayout)
         collectionView.backgroundColor = UIColor.clear
         collectionView.isPagingEnabled = true
@@ -224,7 +222,7 @@ public extension MYCycleScrollView {
                 return
         }
         let index = self.currentIndex % self.imageURLs.count
-        delegate.cycleScrollView(self, didScrollTo: index)
+        delegate.cycleScrollView!(self, didScrollTo: index)
     }
     public func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
         self.scrollViewDidEndScrollingAnimation(self.collectionView)

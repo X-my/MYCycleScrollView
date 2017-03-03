@@ -42,7 +42,7 @@ open class MYCycleScrollView: UIView {
             }
             setupPageControl()
             collectionView.reloadData()
-            
+            self.setNeedsLayout()
         }
         
     }
@@ -243,5 +243,6 @@ fileprivate class MYCollectionViewCell: UICollectionViewCell {
     override func layoutSubviews() {
         super.layoutSubviews()
         imageView.frame = self.bounds
+        imageView.clipsToBounds = true
     }
 }

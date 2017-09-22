@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MYCycleScrollView"
-  s.version      = "1.0.3"
+  s.version      = "1.0.4"
   s.summary      = "Swift版无限滚动轮播图控件，使用Kingfisher加载网络图片"
 
   s.homepage     = "https://github.com/X-my/MYCycleScrollView"
@@ -19,6 +19,6 @@ Pod::Spec.new do |s|
   s.source_files  = ["Sources/*.swift"]
 
   s.requires_arc = true
-  s.dependency 'Kingfisher', '~> 3.3.3'
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3.0' }
+  s.dependency 'Kingfisher'
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => ‘4.0’ }
 end
